@@ -15,7 +15,7 @@ sudo apt-get install librocksdb-dev
 ```
 ##### Building
 ```
-git clone https://github.com/saloppe73/aguscoin_3.0.git
+git clone https://github.com/AgusFoundation/aguscoin_3.0.git
 cd aguscoin_3.0
 mkdir build && cd build && cmake .. && make
 ```
@@ -45,7 +45,7 @@ The binaries will be in `/build/src` after compilation is complete.
 
 ##### Building
 ```
-git clone https://github.com/saloppe73/aguscoin_3.0.git
+git clone https://github.com/AgusFoundation/aguscoin_3.0.git
 cd aguscoin_3.0
 mkdir build && cd build && cmake .. && make
 ```
@@ -84,5 +84,3 @@ MSBuild ByteCoin.sln /p:Configuration=Release /m
 ```
 
 You will find all your binaries in the '..\build\src\Release' directory.
-
-#### cheers goes to bytecoin && monero && turtle
